@@ -11,7 +11,7 @@ module mux(
     output reg [3:0] mux_out_2
     );
 
-parameter IDLE = 3'b000, COMPUTE_1 = 3'b001, COMPUTE_2 = 3'b010, COMPUTE_3 = 3'b011,COMPUTE_4 = 3'b100;
+parameter IDLE = 3'b000, COMPUTE_1 = 3'b001, COMPUTE_2 = 3'b010, COMPUTE_3 = 3'b011, COMPUTE_4 = 3'b100, COMPUTE_5 = 3'b101, COMPUTE_6 = 3'b110;
 
 reg [31:0] mux_in_1_reg;
 reg [31:0] mux_in_2_reg;
